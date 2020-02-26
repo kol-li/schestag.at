@@ -40,13 +40,14 @@
 		)
 	));
 
-	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-width: 30%;
+	$size-header-pad: 2em;
 
 /* Basic */
 
 	body {
 		background: _palette(bg);
+		background-color: #f4f4f4;
 
 		&.is-loading {
 			*, *:before, *:after {
@@ -903,7 +904,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('images/sidebar.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -950,7 +951,7 @@
 /* Footer */
 
 	#footer {
-		.icons {
+		.icons, .location {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
 			a {
@@ -989,7 +990,6 @@
 
 	#main {
 		margin-left: $size-header-width;
-		max-width: 50em + $size-header-pad;
 		padding: ($size-header-pad * 2) $size-header-pad $size-header-pad $size-header-pad;
 		width: calc(100% - #{$size-header-width});
 
@@ -1003,6 +1003,22 @@
 				margin-top: 0;
 				padding-top: 0;
 			}
+
+			h2 {
+				text-transform: uppercase;
+			}
+
+			ul {
+				margin-bottom: 0;
+			}
+		}
+
+		a {
+			color: inherit;
+		}
+
+		figure a {
+			border-bottom: none;
 		}
 	}
 
@@ -1196,7 +1212,7 @@
 
 	@include breakpoint(large) {
 
-		$size-header-width: 30%;
+		$size-header-width: 35%;
 		$size-header-pad: 3em;
 
 		/* Header */
@@ -1298,7 +1314,7 @@
 				text-align: center;
 				width: 100%;
 
-				.icons {
+				.icons, .location {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
 				}
 
