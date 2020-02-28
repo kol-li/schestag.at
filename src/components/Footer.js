@@ -36,8 +36,15 @@ class Footer extends React.Component {
                         </li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; 2020 Michael Schestag</li>
-                        <li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+                        <li>
+                            &copy; 2020 Michael Schestag
+                        </li>
+                        <li>
+                            Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>
+                        </li>
+                        <li>
+                            <i className="icon fa-camera-retro"/> by <a href="https://www.instagram.com/j.weinzettl" target="_blank" rel="noopener noreferrer">Julia Weinzettl</a>
+                        </li>
                     </ul>
                 </div>
             </div>
