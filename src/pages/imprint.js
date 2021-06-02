@@ -4,6 +4,20 @@ import { graphql } from 'gatsby'
 
 const ImprintPage = ({ data }) => (
   <Layout>
+    <script type="text/javascript">
+      function unCryptHref (s) {
+        var n = 0;
+        var r = "";
+        for (var i=0; i < s.length; i++) {
+          n = s.charCodeAt(i);
+          if (n >= 8364) {
+            n = 128;
+          }
+          r += String.fromCharCode(n-1);
+        }
+        location.href = r;
+      }
+    </script>
     <div id="main">
       <ul className="labeled-icons">
         <li>
@@ -15,7 +29,7 @@ const ImprintPage = ({ data }) => (
       <ul className="labeled-icons">
         <li>
           <h3 className="icon fa-home"><span className="label">Address</span></h3>
-          Doningasse 20/5/11<br />
+          Fundergasse 14/1/401<br />
           1220 Wien<br />
           Österreich
         </li>
