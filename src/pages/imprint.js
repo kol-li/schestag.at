@@ -7,20 +7,29 @@ const ImprintPage = ({ data }) => (
     <div id="main">
       <ul className="labeled-icons">
         <li>
-          <h3 className="icon fa-arrow-circle-o-left"><span className="label">Back to main page</span></h3>
+          <h3 className="icon">
+            <i className="fas fa-arrow-alt-circle-left"/>
+            <span className="label">Back to main page</span>
+          </h3>
           <a href='/'>Back</a>
         </li>
       </ul>
       <h1>Kolli Software Services - Michael Schestag</h1>
       <ul className="labeled-icons">
         <li>
-          <h3 className="icon fa-home"><span className="label">Address</span></h3>
+          <h3 className="icon">
+            <i className="fas fa-home"/>
+            <span className="label">Address</span>
+          </h3>
           Fundergasse 14/1/401<br />
           1220 Wien<br />
           Österreich
         </li>
         <li>
-          <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
+          <h3 className="icon">
+            <i className="fas fa-envelope"/>
+            <span className="label">Email</span>
+          </h3>
           <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');">contact (a) schestag.at</a>
         </li>
       </ul>

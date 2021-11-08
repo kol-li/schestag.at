@@ -9,7 +9,10 @@ export default ({ data }) => {
       <div id="main">
         <ul className="labeled-icons">
           <li>
-            <h3 className="icon fa-arrow-circle-o-left"><span className="label">Back to main page</span></h3>
+            <h3 className="icon">
+              <i className="fas fa-arrow-alt-circle-left"/>
+              <span className="label">Back to main page</span>
+            </h3>
             <a href='/'>Back</a>
           </li>
         </ul>

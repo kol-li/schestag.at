@@ -10,27 +10,32 @@ class Footer extends React.Component {
                     </ul>
                     <ul className="icons">
                         <li>
-                            <a href="https://stackoverflow.com/users/3432305/kolli" className="icon fa-stack-overflow" target="_blank" rel="noopener noreferrer">
+                            <a href="https://stackoverflow.com/users/3432305/kolli" className="icon" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-stack-overflow"/>
                                 <span className="label">Stack Overflow</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/michaelschestag/" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/michaelschestag/" className="icon" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-linkedin-in"/>
                                 <span className="label">LinkedIn</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/kol_li" className="icon fa-twitter" target="_blank" rel="noopener noreferrer">
+                            <a href="https://twitter.com/kol_li" className="icon" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-twitter"/>
                                 <span className="label">Twitter</span>
                             </a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/kol.lee/" className="icon fa-instagram" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/kol.lee/" className="icon" target="_blank" rel="noopener noreferrer">
+                                <i className="fab fa-instagram"/>
                                 <span className="label">Instagram</span>
                             </a>
                         </li>
                         <li>
-                            <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');" className="icon fa-envelope-o">
+                            <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');" className="icon">
+                                <i className="fas fa-envelope"/>
                                 <span className="label">Email</span>
                             </a>
                         </li>
@@ -40,10 +45,10 @@ class Footer extends React.Component {
                             &copy; 2021 Michael Schestag
                         </li>
                         <li>
-                            Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>
+                            Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>
                         </li>
                         <li>
-                            <i className="icon fa-camera-retro"/> by <a href="https://www.instagram.com/j.weinzettl" target="_blank" rel="noopener noreferrer">Julia Weinzettl</a>
+                            <i className="fas fa-camera-retro"/> by <a href="https://www.instagram.com/j.weinzettl" target="_blank" rel="noopener noreferrer">Julia Weinzettl</a>
                         </li>
                     </ul>
                 </div>

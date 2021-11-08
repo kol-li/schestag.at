@@ -72,8 +72,11 @@ export default ({ data }) => (
                 <p>Just let me know what you desire, I'm sure we will find a solution!</p>
                 <ul className="labeled-icons">
                     <li>
-                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                        <a href='mailto&#58;con%74a&#99;t&#64;&#115;c%6&#56;&#101;s%7&#52;a&#103;&#46;a%74'>Contact me!</a>
+                        <h3 className="icon">
+                            <i className="fas fa-envelope"/>
+                            <span className="label">Email</span>
+                        </h3>
+                        <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');">Contact me!</a>
                     </li>
                 </ul>
             </section>
