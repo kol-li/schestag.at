@@ -56,6 +56,12 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`
+    `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: '/uncrypt.js'
+      },
+    }
   ]
 }

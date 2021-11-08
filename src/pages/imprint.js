@@ -4,20 +4,6 @@ import { graphql } from 'gatsby'
 
 const ImprintPage = ({ data }) => (
   <Layout>
-    <script type="text/javascript">
-      function unCryptHref (s) {
-        var n = 0;
-        var r = "";
-        for (var i=0; i < s.length; i++) {
-          n = s.charCodeAt(i);
-          if (n >= 8364) {
-            n = 128;
-          }
-          r += String.fromCharCode(n-1);
-        }
-        location.href = r;
-      }
-    </script>
     <div id="main">
       <ul className="labeled-icons">
         <li>
@@ -35,7 +21,7 @@ const ImprintPage = ({ data }) => (
         </li>
         <li>
           <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-          <a href='mailto&#58;con%74a&#99;t&#64;&#115;c%6&#56;&#101;s%7&#52;a&#103;&#46;a%74'>contact (a) schestag.at</a>
+          <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');">contact (a) schestag.at</a>
         </li>
       </ul>
       <p>Unternehmensgegenstand: Entwicklung sowie Wartung und Erweiterung von Software und webbasierten Applikationen</p>
