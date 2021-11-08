@@ -1,3 +1,5 @@
+@use "sass:math"
+
 .showcase.is-loading
   visibility: hidden
 
@@ -17,13 +19,13 @@
 
   .showcase__item
     box-sizing: border-box
-    width: (100% / 2)
+    width: math.div(100%, 2)
     float: left
     padding-left: 15px
 
 @media screen and (min-width: 1400px)
   .showcase__item
-    width: (100% / 3)
+    width: math.div(100%, 3)
 
 @media screen and (min-width: 900px)
   .showcase
