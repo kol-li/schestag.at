@@ -22,7 +22,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sass`,
       options: {
-        indentedSyntax: true
+        sassOptions: {
+          indentedSyntax: true
+        }
       }
     },
     `gatsby-plugin-sharp`,
@@ -61,12 +63,6 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
-    {
-      resolve: 'gatsby-plugin-load-script',
-      options: {
-        src: '/uncrypt.js'
-      },
-    }
+    `gatsby-transformer-sharp`
   ]
 }

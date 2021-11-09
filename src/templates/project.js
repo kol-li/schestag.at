@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-export default ({ data }) => {
+const project = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -22,6 +22,8 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+export default project;
 
 export const query = graphql`
   query($path: String!) {

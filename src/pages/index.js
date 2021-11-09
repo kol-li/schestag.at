@@ -9,11 +9,11 @@ import Layout from '../components/layout'
 import '../assets/scss/showcase.sass'
 import '../assets/scss/card.sass'
 
-export default ({ data }) => (
+const index = ({ data }) => (
     <Layout>
         <Helmet>
-                <title>{data.site.siteMetadata.title}</title>
-                <meta name="description" content={data.site.siteMetadata.description} />
+            <title>{data.site.siteMetadata.title}</title>
+            <meta name="description" content={data.site.siteMetadata.description} />
         </Helmet>
 
         <div id="main">
@@ -89,6 +89,8 @@ export default ({ data }) => (
 
     </Layout>
 )
+
+export default index;
 
 export const query = graphql`
   query {
