@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Masonry from 'react-masonry-component'
 import { Link, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import Layout from '../components/layout'
 
@@ -28,7 +28,7 @@ const index = ({ data }) => (
                       <div key={node.id} className="showcase__item">
                           <figure className="card">
                               <Link to={`/${node.frontmatter.slug}`} className="card__image">
-                                  <Img fluid={node.frontmatter.coverImage.childImageSharp.fluid} />
+                                  <GatsbyImage image={node.frontmatter.coverImage.childImageSharp.gatsbyImageData} alt={node.frontmatter.title} />
                               </Link>
                               <figcaption className="card__caption">
                                   <h6 className="card__title">
@@ -115,9 +115,7 @@ export const query = graphql`
             excerpt
             coverImage {
               childImageSharp { 
-                fluid(maxWidth: 700) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData
               }
             }
           }

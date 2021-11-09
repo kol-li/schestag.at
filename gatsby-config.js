@@ -27,7 +27,15 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          placeholder: `blurred`
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
