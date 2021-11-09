@@ -1,6 +1,6 @@
 ---
 template: project
-order: 8
+order: 9
 title: UpToFuture
 excerpt: UpToFuture is a wide range business agency that provides services such as business development, restructuring, investment coaching and many more.
 slug: projects/uptofuture
