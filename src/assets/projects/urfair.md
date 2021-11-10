@@ -22,7 +22,7 @@ I am responsible for all decisions regarding technology, for feature development
 
 ## Key technologies
 
-* Wordpress
+* WordPress
 * WooCommerce
 * PHP
 

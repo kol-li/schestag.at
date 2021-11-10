@@ -18,17 +18,25 @@ Since 09/2019
 
 ### Technical Consultant
 
-For this project I provided performance and SEO improvements as well as ongoing software development and Wordpress support.
+For this project I provide performance and SEO improvements as well as ongoing software development and WordPress support.
+
+Furthermore, I manage the synchronization of shop products to external services like Facebook, Instagram, Pinterest, Google Merchant Center etc.
 
 ## Key technologies
 
-* Wordpress
+* WordPress
 * WooCommerce
 * PHP
 
 ## Impressions
 
-![Frederick & Sophie website screenshot](frederickandsophie.png "Frederick & Sophie website screenshott")
+![Frederick & Sophie website screenshot](frederickandsophie.png "Frederick & Sophie website screenshot")
+
+![Frederick & Sophie website screenshot](frederickandsophie2.png "Frederick & Sophie website screenshot")
+
+![Frederick & Sophie website screenshot](frederickandsophie3.png "Frederick & Sophie website screenshot")
+
+![Frederick & Sophie mobile website screenshot](frederickandsophie4.png "Frederick & Sophie mobile website screenshot")
 
 ## Link
 

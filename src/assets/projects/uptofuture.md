@@ -18,11 +18,11 @@ UpToFuture is a wide range business agency that provides services such as busine
 
 ### Technical Consultant
 
-For this client, I transferred the existing static page to Wordpress.
+For this client, I transferred the existing static page to WordPress.
 
 ## Key technologies
 
-* Wordpress
+* WordPress
 
 ## Impressions
 

@@ -24,16 +24,16 @@ The application includes a web app as well as native apps for Android and iOS.
 
 We started this project as a kind of playground to test technologies when a new member, Jürgen, joined the TillDone team.
 
-Our ambitious plan was to launch before the start of the UEFA Euro 2016 in June and we managed to achieve it.
+Our ambitious plan was to launch before the start of the UEFA Euro 2016 in June - and with a great team effort we managed to achieve it.
 
-I was responsible for the Ionic part of the project and for guiding our new team member.  
+I was responsible for the **Ionic** part of the project and for guiding our new team member.
 
 ## Key technologies
 
 * Ionic
-* Wordpress
+* WordPress
 
-The project consists of a main info page realized in Wordpress with a connected login part implemented as an Ionic PWA.
+The project consists of a main info page realized in WordPress with a connected login part implemented as an Ionic PWA.
 
 The Ionic part was also launched as a stand-alone app for Android and iOS.
 
