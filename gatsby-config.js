@@ -32,7 +32,8 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          placeholder: `blurred`
+          placeholder: `blurred`,
+          formats: ["avif", "webp", "auto"]
         }
       }
     },
