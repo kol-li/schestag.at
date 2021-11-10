@@ -29,11 +29,11 @@ The application includes a Progressive Web App (PWA) as well as a sophisticated 
 
 ## Impressions
 
-![GoodSpender app preview](goodspender1.PNG "GoodSpender app preview")
+![GoodSpender app preview](goodspender1.png "GoodSpender app preview")
 
 ![GoodSpender app preview](goodspender2.png "GoodSpender app preview")
 
-![GoodSpender app preview](goodspender3.PNG "GoodSpender app preview")
+![GoodSpender app preview](goodspender3.png "GoodSpender app preview")
 
 ## Link
 
