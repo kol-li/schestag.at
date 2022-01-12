@@ -31,4 +31,4 @@ Design, implementation and maintenance for the website.
 
 ## Link
 
-[dichterliebe.at](http://dichterliebe.at)
+<a target="_blank" href="http://dichterliebe.at">dichterliebe.at</a>

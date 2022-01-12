@@ -31,4 +31,4 @@ For this project I provide performance and SEO improvements as well as ongoing s
 
 ## Link
 
-[obermeiergroup.com](https://obermeiergroup.com/)
+<a target="_blank" href="https://obermeiergroup.com/">obermeiergroup.com</a>

@@ -30,4 +30,4 @@ For this client, I transferred the existing static page to WordPress.
 
 ## Link
 
-[uptofuture.at](http://uptofuture.at)
+<a target="_blank" href="http://uptofuture.at">uptofuture.at</a>

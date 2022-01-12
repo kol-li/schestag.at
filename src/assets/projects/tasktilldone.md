@@ -31,4 +31,4 @@ My good friend Leo Brunnhofer started this project in 2014. After becoming self-
 
 ## Link
 
-[www.tasktilldone.com](https://www.tasktilldone.com)
+<a target="_blank" href="https://www.tasktilldone.com">tasktilldone.com</a>

@@ -47,4 +47,4 @@ The Ionic part was also launched as a stand-alone app for Android and iOS.
 
 ## Link
 
-[www.bettilldone.com](https://www.bettilldone.com)
+<a target="_blank" href="https://www.bettilldone.com">bettilldone.com</a>

@@ -32,4 +32,4 @@ I went for GatsbyJS over classic CMS systems, mainly to try a new technology and
 
 ## Link
 
-[www.tilldone.software](https://www.tilldone.software)
+<a target="_blank" href="https://www.tilldone.software">tilldone.software</a>

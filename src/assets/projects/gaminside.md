@@ -37,4 +37,4 @@ After leaving GAMInside to start my own self-employed business, I continued to p
 
 ## Link
 
-[www.gaminside.com](https://www.gaminside.com)
+<a target="_blank" href="https://www.gaminside.com">gaminside.com</a>

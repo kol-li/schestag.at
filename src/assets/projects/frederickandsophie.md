@@ -42,4 +42,4 @@ Furthermore, I manage the synchronization of shop products to external services 
 
 ## Link
 
-[www.frederickandsophie.com](https://www.frederickandsophie.com)
+<a target="_blank" href="https://www.frederickandsophie.com">frederickandsophie.com</a>

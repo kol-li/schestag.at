@@ -36,4 +36,4 @@ Design, implementation and maintenance for the webshop.
 
 ## Link
 
-[shamans4future.com](https://shamans4future.com)
+<a target="_blank" href="https://shamans4future.com">shamans4future.com</a>
