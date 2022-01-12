@@ -58,7 +58,7 @@ const index = ({ data }) => (
                         </ul>
                     </li>
                     <li>Mobile app development for Android and iOS</li>
-                    <li>Wordpress
+                    <li>WordPress
                         <ul>
                             <li>Customization</li>
                             <li>Feature implementation</li>
