@@ -4,7 +4,7 @@ order: 5
 title: Frederick & Sophie
 excerpt: Frederick & Sophie is an e-commerce shop that follows the life of fictional characters Frederick and Sophie and their family and friends.
 slug: projects/frederickandsophie
-coverImage: './frederickandsophie.png'
+coverImage: './frederickandsophie_winter.jpg'
 ---
 ## The project
 
@@ -30,13 +30,15 @@ Furthermore, I manage the synchronization of shop products to external services 
 
 ## Impressions
 
-![Frederick & Sophie website screenshot](frederickandsophie.png "Frederick & Sophie website screenshot")
+![Frederick & Sophie website screenshot](frederickandsophie_winter.jpg "Frederick & Sophie website screenshot")
 
 ![Frederick & Sophie website screenshot](frederickandsophie2.png "Frederick & Sophie website screenshot")
 
 ![Frederick & Sophie website screenshot](frederickandsophie3.png "Frederick & Sophie website screenshot")
 
 ![Frederick & Sophie mobile website screenshot](frederickandsophie4.png "Frederick & Sophie mobile website screenshot")
+
+![Frederick & Sophie website screenshot](frederickandsophie.png "Frederick & Sophie website screenshot")
 
 ## Link
 
