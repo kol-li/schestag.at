@@ -36,4 +36,4 @@ I am responsible for all decisions regarding technology, for feature development
 
 ## Link
 
-<a target="_blank" href="https://www.urfair.shop">urfair.shop</a>
+<a target="_blank" href="https://urfair.shop/">urfair.shop</a>

@@ -27,12 +27,12 @@ const index = ({ data }) => (
                     {data.allMarkdownRemark.edges.map(({ node }) => (
                       <div key={node.id} className="showcase__item">
                           <figure className="card">
-                              <Link to={`/${node.frontmatter.slug}`} className="card__image">
+                              <Link to={`/${node.frontmatter.slug}/`} className="card__image">
                                   <GatsbyImage image={node.frontmatter.coverImage.childImageSharp.gatsbyImageData} alt={node.frontmatter.title} />
                               </Link>
                               <figcaption className="card__caption">
                                   <h6 className="card__title">
-                                      <Link to={`/${node.frontmatter.slug}`}>{node.frontmatter.title}</Link>
+                                      <Link to={`/${node.frontmatter.slug}/`}>{node.frontmatter.title}</Link>
                                   </h6>
                                   <div className="card__description">
                                       <p>{node.frontmatter.excerpt}</p>
@@ -82,7 +82,7 @@ const index = ({ data }) => (
             </section>
 
             <section id="four">
-                <a href="imprint">Imprint</a>
+                <a href="imprint/">Imprint</a>
             </section>
 
         </div>

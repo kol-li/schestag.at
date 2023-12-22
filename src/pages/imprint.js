@@ -41,7 +41,7 @@ const ImprintPage = ({ data }) => (
       <p>UID-Nr.: ATU69989916</p>
       <p>
         {data.allFile.edges.map(({ node }) => (
-          <a key={node.id} className="ecg" href="https://www.wkoecg.at/Web/Ecg.aspx?FirmaID=0c6b9543-a400-445e-88df-4c6a347bf1d6&_ga=2.173802727.516936350.1582557125-2084495530.1572278246" target="_blank" rel="noopener noreferrer">
+          <a key={node.id} className="ecg" href="https://www.wkoecg.at/ecg.aspx?firmaid=44975e95-08fa-4df0-b015-b56f2800b46b&_ga=2.173802727.516936350.1582557125-2084495530.1572278246" target="_blank" rel="noopener noreferrer">
             <img src={node.publicURL} alt="ECG- und Mediengesetz-Link" />
           </a>
         ))}
