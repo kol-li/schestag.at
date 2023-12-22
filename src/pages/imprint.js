@@ -7,11 +7,12 @@ const ImprintPage = ({ data }) => (
   <Layout>
     <Helmet>
       <title>Imprint - Kolli Software Services</title>
+      <meta name="description" content="Imprint and contact details for Kolli Software Services - Michael Schestag"/>
     </Helmet>
     <div id="main">
       <ul className="labeled-icons">
         <li>
-          <h3 className="icon">
+        <h3 className="icon">
             <i className="fas fa-arrow-alt-circle-left"/>
             <span className="label">Back to main page</span>
           </h3>

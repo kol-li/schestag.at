@@ -7,12 +7,13 @@ const project = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <Helmet>
-        <title>Project: {post.frontmatter.title}</title>
-      </Helmet>
-      <div id="main">
-        <ul className="labeled-icons">
-          <li>
+        <Helmet>
+            <title>Project: {post.frontmatter.title}</title>
+            <meta name="description" content={post.frontmatter.excerpt}/>
+        </Helmet>
+        <div id="main">
+            <ul className="labeled-icons">
+                <li>
             <h3 className="icon">
               <i className="fas fa-arrow-alt-circle-left"/>
               <span className="label">Back to main page</span>
@@ -35,6 +36,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        excerpt
       }
     }
   }
