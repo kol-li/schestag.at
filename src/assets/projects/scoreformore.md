@@ -30,7 +30,7 @@ ScoreForMore was a gamification platform based on the GAMInside gamification eng
 
 ![ScoreForMore website screenshot](scoreformore2.jpg "ScoreForMore website screenshot")
 
-![ScoreForMore website screenshot](scoreformore3.JPG "ScoreForMore website screenshot")
+![ScoreForMore website screenshot](scoreformore4.jpg "ScoreForMore website screenshot")
 
 ## Link
 
