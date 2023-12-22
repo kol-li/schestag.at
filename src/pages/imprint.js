@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 const ImprintPage = ({ data }) => (
   <Layout>
     <Helmet>
-      <title>Impressum</title>
+      <title>Imprint</title>
     </Helmet>
     <div id="main">
       <ul className="labeled-icons">
