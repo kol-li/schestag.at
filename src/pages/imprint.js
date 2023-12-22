@@ -1,9 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 
 const ImprintPage = ({ data }) => (
   <Layout>
+    <Helmet>
+      <title>Impressum</title>
+    </Helmet>
     <div id="main">
       <ul className="labeled-icons">
         <li>

@@ -1,11 +1,15 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 
 const project = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
+      <Helmet>
+        <title>Project: {post.frontmatter.title}</title>
+      </Helmet>
       <div id="main">
         <ul className="labeled-icons">
           <li>
