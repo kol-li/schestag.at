@@ -15,28 +15,28 @@ function Footer() {
                 </ul>
                 <ul className="icons">
                     <li>
-                        <a href="https://stackoverflow.com/users/3432305/kolli" className="icon" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-stack-overflow" aria-label="Michael Schestag on Stack Overflow"/>
+                        <a href="https://stackoverflow.com/users/3432305/kolli" className="icon" target="_blank" aria-label="Michael Schestag on Stack Overflow" rel="noopener noreferrer">
+                            <i className="fab fa-stack-overflow" aria-hidden="true"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/michaelschestag/" className="icon" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-linkedin-in" aria-label="Michael Schestag on LinkedIn"/>
+                        <a href="https://www.linkedin.com/in/michaelschestag/" className="icon" target="_blank" aria-label="Michael Schestag on LinkedIn" rel="noopener noreferrer">
+                            <i className="fab fa-linkedin-in" aria-hidden="true"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/kol_li" className="icon" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-twitter" aria-label="Michael Schestag on Twitter"/>
+                        <a href="https://twitter.com/kol_li" className="icon" target="_blank" aria-label="Michael Schestag on Twitter" rel="noopener noreferrer">
+                            <i className="fab fa-twitter" aria-hidden="true"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/kol.lee/" className="icon" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-instagram" aria-label="Michael Schestag on Instagram"/>
+                        <a href="https://www.instagram.com/kol.lee/" className="icon" target="_blank" aria-label="Michael Schestag on Instagram" rel="noopener noreferrer">
+                            <i className="fab fa-instagram" aria-hidden="true"/>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');" className="icon">
-                            <i className="fas fa-envelope" aria-label="Contact Michael Schestag by Email"/>
+                        <a href="javascript:unCryptHref('nbjmup;dpoubduAtdiftubh/bu');" className="icon" aria-label="Contact Michael Schestag by Email">
+                            <i className="fas fa-envelope" aria-hidden="true"/>
                         </a>
                     </li>
                 </ul>
