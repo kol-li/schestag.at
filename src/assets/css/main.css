@@ -2660,6 +2660,7 @@ input, select, textarea {
 
 	#footer .location {
 		margin: 1em 0 0;
+		list-style-type: none;
 	}
 
 	#footer .location a {
