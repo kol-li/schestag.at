@@ -33,7 +33,7 @@ module.exports = {
       options: {
         defaults: {
           placeholder: `blurred`,
-          formats: ["avif", "webp", "auto"]
+          formats: ["avif", "webp"]
         }
       }
     },
@@ -67,6 +67,8 @@ module.exports = {
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
               maxWidth: 590,
+              withWebp: true,
+              withAvif: true
             },
           },
         ],

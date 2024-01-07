@@ -116,7 +116,9 @@ export const query = graphql`
             excerpt
             coverImage {
               childImageSharp { 
-                gatsbyImageData
+                gatsbyImageData(
+                    width: 300
+                )
               }
             }
           }
