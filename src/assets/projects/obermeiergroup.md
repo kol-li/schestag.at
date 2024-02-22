@@ -8,7 +8,7 @@ coverImage: './obermeiergroup.png'
 ---
 ## The project
 
-The Obermeier Group website is the corporate online presence of Priscilla and Markus Obermeier, the founders of fabulous kids toy store [Frederick & Sophie](/projects/frederickandsophie).
+The Obermeier Group website is the corporate online presence of Priscilla and Markus Obermeier, the founders of fabulous kids toy store [Frederick & Sophie](/projects/frederickandsophie/).
 
 ## When?
 
